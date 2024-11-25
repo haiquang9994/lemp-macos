@@ -23,8 +23,7 @@ services:
 
   nginx:
     container_name: nginx
-    build:
-      context: "./nginx"
+    image: haiquang9994/nginx
     volumes:
       - /Users/light/Developer/vhosts:/etc/nginx/conf.d
       - /Users/light/Developer/www:/Users/light/Developer/www
