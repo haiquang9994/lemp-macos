@@ -1,0 +1,1 @@
+docker build -t haiquang9994/php:7.4-fpm .
