@@ -1,0 +1,1 @@
+docker build -t haiquang9994/mysql:5.7 .
